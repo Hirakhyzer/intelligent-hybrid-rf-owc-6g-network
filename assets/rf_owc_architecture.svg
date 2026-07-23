@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360">
+  <rect width="1100" height="360" fill="#f8fafc"/>
+  <style>
+    .box{fill:white;stroke:#1f2937;stroke-width:2;rx:14}
+    .t{font-family:Arial, sans-serif;font-size:20px;fill:#111827;font-weight:700}
+    .s{font-family:Arial, sans-serif;font-size:14px;fill:#374151}
+    .a{stroke:#2563eb;stroke-width:3;marker-end:url(#arrow)}
+  </style>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker></defs>
+  <rect class="box" x="35" y="95" width="175" height="95"/><text class="t" x="60" y="130">Synthetic 6G</text><text class="s" x="60" y="158">users, apps, mobility</text>
+  <rect class="box" x="250" y="95" width="175" height="95"/><text class="t" x="285" y="130">RF + OWC</text><text class="s" x="285" y="158">channel states</text>
+  <rect class="box" x="465" y="95" width="185" height="95"/><text class="t" x="498" y="130">Prediction</text><text class="s" x="493" y="158">traffic, blockage, mobility</text>
+  <rect class="box" x="690" y="95" width="185" height="95"/><text class="t" x="720" y="130">Orchestration</text><text class="s" x="725" y="158">hybrid RF-OWC decisions</text>
+  <rect class="box" x="915" y="95" width="150" height="95"/><text class="t" x="945" y="130">Metrics</text><text class="s" x="940" y="158">latency, energy, QoS</text>
+  <line class="a" x1="210" y1="142" x2="250" y2="142"/><line class="a" x1="425" y1="142" x2="465" y2="142"/><line class="a" x1="650" y1="142" x2="690" y2="142"/><line class="a" x1="875" y1="142" x2="915" y2="142"/>
+  <text class="s" x="350" y="280">Independent synthetic research simulator only — not deployable telecom control software.</text>
+</svg>
