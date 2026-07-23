@@ -1,0 +1,11 @@
+seed: 42
+users: 72
+time_steps: 96
+policies:
+  - rf_only
+  - owc_preferred
+  - latency_aware
+  - energy_aware
+  - adaptive_hybrid
+outputs: outputs
+boundary: independent synthetic research simulator only
